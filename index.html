@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<!-- Mobile rendering -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<style>
+	.bg-1 { 
+	    background-color: #003926;
+	    color: #ffffff;
+	}
+	</style>
+
+	<style>
+	.bg-2 { 
+	    background-color: #0E553E;
+	    color: white;
+	}
+	</style>
+
+
+</head>
+
+<body class="bg-2">
+
+	<div class="row bg-1" style="text-align: center;">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4"><h1>Welcome!</h1></div>
+		<div class="col-sm-4"></div>
+	</div>
+
+	<div class="row bg-1" style="text-align: center;">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4"><button>Link 1</button></div>
+		<div class="col-sm-4"></div>
+	</div>
+
+	<br/>
+
+	<div class="row" style="text-align: center;">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+
+			<!-- THE ACTION, METHOD, AND NAME FIELDS NEED TO BE CHANGED -->
+			<form id="signin" method="POST" action="loginverification.php">
+				<div class="form-group">
+					<label for="username">Username:</label>
+					<input type="text" class="form-control" name="username">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" name="pwd">
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+
+
+		</div>
+		<div class="col-sm-4"></div>
+	</div>
+
+</body>
+
+</html>
